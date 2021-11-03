@@ -3,10 +3,32 @@
     min-height: 100vh;
 }
 
+.title-bar-container{
+    background-color: green;
+    height: 10rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .red{
     background-color: red;
 }
 
 .blue {
     background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+
+.logo{
+    width: 5rem;
+}
+
+.link{
+    width: 5rem;
 }
