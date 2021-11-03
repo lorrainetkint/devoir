@@ -1,34 +1,29 @@
-body{
-  font-family: 'Nunito';
+body {
+  font-family: "Nunito";
 }
 
-.main-container{
+.main-container {
   min-height: 100vh;
 }
 
-.main-color{
-  background-color: #343434;
-  color: white;
-}
-
-.title-bar-container{
-  /* height: 10rem; */
+.title-bar-container {
+  background-color: rgb(83, 122, 180);
+  height: 10rem;
   padding: 2rem;
   display: flex;
   justify-content: space-between;
-
 }
 
-.red{
-  background-color: red;
+.red {
+  background-color: rgb(83, 122, 180);
 }
 
 .blue {
-  background-color: blue;
+  background-color: rgb(81, 81, 179);
 }
 
 .yellow {
-  background-color: yellow;
+  background-color: rgb(159, 112, 212);
 }
 
 
