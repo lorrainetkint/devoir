@@ -62,9 +62,6 @@ body{
 
 }
 
-.flex{
-    display: flex;
-}
 
 .align-items{
     align-items: center;
@@ -86,4 +83,22 @@ button{
     border-radius: 15px;
     color:white;
     padding: 1.2rem;
+}
+.text-container{
+    width: 70vw;
+}
+
+.image-container{
+    background-image: url("assets/neon-huldeschild-hier-is-het-feestje.png");
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 20px;
+    width: 30vw; 
+}
+
+
+.flex{
+    display: flex;
 }
