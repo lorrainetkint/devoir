@@ -1,0 +1,12 @@
+.main-container{
+    color:red;
+    min-height: 100vh;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
