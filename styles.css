@@ -52,3 +52,22 @@ body{
 }
 
 img {color}
+
+.text-container{
+    display: flex: ;
+}
+
+.image-container{
+    background-image: url("assets/neon-huldeschild-hier-is-het-feestje.jpg");
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 50vw; 
+}
+
+
+.flex{
+    display: flex;
+}
