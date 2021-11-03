@@ -1,71 +1,100 @@
-body{
-    font-family: 'Nunito';
+body {
+  font-family: "Nunito";
 }
 
-.main-container{
-    min-height: 100vh;
+.main-container {
+  min-height: 100vh;
 }
 
-.title-bar-container{
-    background-color: green;
-    height: 10rem;
-    padding: 2rem;
-    display: flex;
-    justify-content: space-between;
-
+.title-bar-container {
+  background-color: rgb(83, 122, 180);
+  height: 10rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.red{
-    background-color: red;
+.red {
+  background-color: rgb(83, 122, 180);
 }
 
 .blue {
-    background-color: blue;
+  background-color: rgb(81, 81, 179);
 }
 
 .yellow {
-    background-color: yellow;
+  background-color: rgb(159, 112, 212);
 }
 
-
-.logo{
-    font-size: 5rem;
-    display: flex;
-    align-items: center;
+.logo {
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
 }
 
-.link{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.social-container{
-    display: flex;
-    align-items: center;
-    font-size: 1.1rem;
+.social-container {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
 }
 
 .social-container > * {
-    margin: 0.4rem;
+  margin: 0.4rem;
 }
 
-.text-container{
-    width: 70vw;
+.text-container {
+  width: 70vw;
+  margin: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
-.image-container{
-    background-image: url("assets/neon-huldeschild-hier-is-het-feestje.png");
-    text-align: center;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 20px;
-    width: 30vw; 
+.text-position {
+  text-align: center;
 }
 
+.image-container {
+  background-image: url("assets/neon-huldeschild-hier-is-het-feestje.png");
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 4rem;
+  width: 30vw;
+}
 
-.flex{
-    display: flex;
+.flex {
+  display: flex;
+}
+
+.picture-theme {
+  background-image: url("assets/party.jpg");
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 35vw;
+  height: 10rem;
+}
+
+.picture2-theme {
+  background-image: url("assets/party.jpg");
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 35vw;
+  height: 10rem;
+}
+
+.theme-container {
+  padding: 1rem;
 }
