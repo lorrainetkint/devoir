@@ -61,3 +61,29 @@ body{
     flex-direction: column;
 
 }
+
+.flex{
+    display: flex;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.child-margin > * {
+    margin: 0.3rem;
+}
+
+.button{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+button{
+    font-size: 1.1rem;
+    background-color: #343434;
+    border: none;
+    border-radius: 15px;
+    color:white;
+    padding: 1.2rem;
+}
