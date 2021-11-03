@@ -1,5 +1,8 @@
+body{
+    font-family: 'Nunito';
+}
+
 .main-container{
-    color:red;
     min-height: 100vh;
 }
 
@@ -26,9 +29,26 @@
 
 
 .logo{
-    width: 5rem;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
 }
 
 .link{
-    width: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
+
+.social-container{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.social-container > * {
+    margin: 0.4rem;
+}
+
+img {color}
