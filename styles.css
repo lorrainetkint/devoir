@@ -51,20 +51,18 @@ body{
     margin: 0.4rem;
 }
 
-img {color}
-
 .text-container{
-    display: flex: ;
+    width: 70vw;
 }
 
 .image-container{
-    background-image: url("assets/neon-huldeschild-hier-is-het-feestje.jpg");
+    background-image: url("assets/neon-huldeschild-hier-is-het-feestje.png");
     text-align: center;
     background-position: center center;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: contain;
     padding: 20px;
-    width: 50vw; 
+    width: 30vw; 
 }
 
 
